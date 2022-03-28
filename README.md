@@ -1,14 +1,14 @@
-# Desafio Beck-end API
+# Desafio Beck-end API <a id="titulo"></a>
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-## Índice
-* [Título](#titulo-e-imagem-de-capa)
-* [Badges](#badges)
+## Índice <a id="indice"></a>
+* [Título](#titulo)
 * [Índices](#indice)
 * [Descrição do Projeto](#descricao-do-projeto)
 * [Executando a API](#executando-api)
 
-# Executando a API <a>
+# Descrição di Projeto <a id="descricao-do-projeto"></a>
+# Executando a API <a id="executando-api"></a>
   
   -Clonar o repositorio
   
@@ -36,5 +36,5 @@
   
   -Assim a API já estará rodando localmente, para testa-la voce pode abrir o navegador e digitar "http://localhost:8000/registros/"
   
-  -Pode ser utilizado também a ferramenta Postman para verificar a API
+  -Pode ser utilizado também a ferramenta Postman para verificar a API "https://www.postman.com/"
   
