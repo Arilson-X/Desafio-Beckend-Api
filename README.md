@@ -18,10 +18,10 @@ Este projeto, trata-se de um desafio de construção de API que faça operaçõe
 
 Para o desinvolvimento do projeto foi utilizado o framework Django, mais especificamente sua extensão Django Rest Framework,
 o formato de arquivo utilizado foi Json(JavaScript Object Notation), visto que é um formato de fácil manipulação e o mais utilizado atualmente,
-no desinvolvimento do projeto foi utilizado também o Venv, ambiente virtual para o python, para que seja possível executar localmente a API.
+no desenvolvimento do projeto foi utilizado também o Venv, ambiente virtual para o python, para executar localmente a API.
 
-Este projeto foi feito com o objetivo de cumprir o desafio, sendo assim é importante ressaltar que esta API não deve ser utilizada para
-integração em outros projetos.
+*Este projeto foi feito com o objetivo de cumprir o desafio, sendo assim é importante ressaltar que esta API não deve ser utilizada para
+integração em outros projetos. Uma vez que ela se encontra em fase de protótipo*
 
 ## Executando a API <a id="executando-api"></a>
   Antes de executar os comandos abaixo é necessário certificar que você tenha instalado o Python 3 em sua máquina, caso não tenha, você 
