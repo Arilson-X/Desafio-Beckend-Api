@@ -12,9 +12,9 @@ def criando_fornecedor(quantidade_de_pessoas):
     fake = Faker('pt_BR')
     Faker.seed(10)
     for _ in range(quantidade_de_pessoas):
-        id = "{}{}{}".format("TESTE",random.randrange(100000, 999999),"TESTE" )
+        id = "{}{}{}".format("TESTE", random.randrange(100000, 999999),"TESTE" )
         name = fake.name()
-        companies = ["Company1","Company2", "Company3"]
+        companies = ["Company1","Company2", "Company3","Company4"]
         company = random.choice(companies)
         created_at = fake.date_between(start_date='-18y', end_date='today')
         amount_products = random.randrange(1,10)
