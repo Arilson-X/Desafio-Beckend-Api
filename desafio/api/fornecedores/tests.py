@@ -1,3 +1,1 @@
-from django.test import TestCase
-
-# Create your tests here.
+'''Não foi implementados testes unitários para esta API'''
