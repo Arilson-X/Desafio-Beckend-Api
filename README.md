@@ -6,6 +6,7 @@
 * [Índices](#indice)
 * [Descrição do Projeto](#descricao-do-projeto)
 * [Executando a API](#executando-api)
+* [Observações](#observacao)
 
 ## Descrição do Projeto <a id="descricao-do-projeto"></a>
 Este projeto, trata-se de um desafio de construção de API que faça operações CRUD, tendo como modelo de metadados com os seguintes parâmetros:
@@ -20,8 +21,16 @@ Para o desinvolvimento do projeto foi utilizado o framework Django, mais especif
 o formato de arquivo utilizado foi Json(JavaScript Object Notation), visto que é um formato de fácil manipulação e o mais utilizado atualmente,
 no desenvolvimento do projeto foi utilizado também o Venv, ambiente virtual para o python, para executar localmente a API.
 
-*Este projeto foi feito com o objetivo de cumprir o desafio, sendo assim é importante ressaltar que esta API não deve ser utilizada para
-integração em outros projetos. Uma vez que ela se encontra em fase de protótipo*
+Como falado acima esta API retorna um Json, no seguinte formato: 
+      
+      {
+         id: "TESTE000001TESTE"
+         name: "Usertest1"
+         company: "Companytest1"
+         created_at: 2022-03-28
+         amount_products: 1
+      }
+      
 
 ## Executando a API <a id="executando-api"></a>
   Antes de executar os comandos abaixo é necessário certificar que você tenha instalado o Python 3 em sua máquina, caso não tenha, você 
@@ -57,4 +66,9 @@ integração em outros projetos. Uma vez que ela se encontra em fase de protóti
   -Assim a API já estará rodando localmente, para testa-la voce pode abrir o navegador e digitar "http://localhost:8000/registros/"
   
   -Pode ser utilizado também a ferramenta Postman para verificar a API "https://www.postman.com/"
+  
+## Observações<a id="observacao"></a>
+
+   *Este projeto foi feito com o objetivo de cumprir um desafio, sendo assim é importante ressaltar que esta API não deve ser utilizada para
+   integração em outros projetos. Uma vez que ela se encontra em fase de protótipo e não está totalmente finalizada, como uma API profissional*
   
