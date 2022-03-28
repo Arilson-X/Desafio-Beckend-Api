@@ -7,7 +7,7 @@
 * [Descrição do Projeto](#descricao-do-projeto)
 * [Executando a API](#executando-api)
 
-# Descrição di Projeto <a id="descricao-do-projeto"></a>
+## Descrição do Projeto <a id="descricao-do-projeto"></a>
 Este projeto, trata-se de um desafio de construção de API que faça operações CRUD, tendo como modelo de metadados com os seguintes parâmetros:
    
     id - (string de 16 dígitos)
@@ -23,7 +23,12 @@ no desinvolvimento do projeto foi utilizado também o Venv, ambiente virtual par
 Este projeto foi feito com o objetivo de cumprir o desafio, sendo assim é importante ressaltar que esta API não deve ser utilizada para
 integração em outros projetos.
 
-# Executando a API <a id="executando-api"></a>
+## Executando a API <a id="executando-api"></a>
+  Antes de executar os comandos abaixo é necessário certificar que você tenha instalado o Python 3 em sua máquina, caso não tenha, você 
+  pode instalar pelo seguinte link: https://www.python.org/downloads/, após instalar você pode se certificar que foi instalado corretamente
+  pelo comando "python --version"
+  
+  ### Feito isso você pode seguir o passo a passo abaixo:
   
   -Clonar o repositorio
   
